@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Nathaniel Buechler | Portfolio</title>
+
+	<!-- General META -->
+	<meta charset="utf-8">
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+	<!--Application CSS Files-->
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+
+	<!--More application CSS Files-->
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme-cyborg.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-overrides.css"/>
+
+</head>
+
+<body class="bkg" ng-app="nbApp">
+	<div id="content">
+
+		<!-- MAIN CONTENT -->
+		<div class="mainContent">
+
+				<!-- INJECTED CONTENT -->
+		    <div ui-view></div>
+
+
+
+        <footer class="footer">
+          <p style="text-align: center;">GPLv3 . Nathaniel Buechler . 2017</p>
+					<p style="text-align: center;">
+						<a style="color: white;" href="https://github.com/nbuechler">
+              <i class="fa fa-1x fa-github"></i>
+                Fork Me
+              </a> |
+						<a style="color: white;" href="https://www.linkedin.com/in/nathaniel-buechler">
+              <i class="fa fa-1x fa-linkedin-square"></i>
+              Connect With Me
+            </a> |
+						<a style="color: white;" href="mailto:natebuechler@gmail.com?Subject=Hello%20Nathaniel">
+              <i class="fa fa-1x fa-envelope"></i>
+              Email Me
+            </a> |
+						<a style="color: white;" href="/resume/Nathaniel_Buechler-Sr_UX_Engineer.pdf">
+              <i class="fa fa-1x fa-file-text"></i>
+              Read About Me
+            </a>
+					</p>
+        </footer>
+		</div>
+
+	</div>
+</body>
+
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-77731869-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+
+	<!--More application JavaScript Files-->
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!--Main Application JavaScript Files-->
+  <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+  <script type="text/javascript" src="node_modules/angular-resource/angular-resource.min.js"></script>
+  <script type="text/javascript" src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+	<!-- THE app.js file -->
+	<script type="text/javascript" src="js/app.js"></script>
+
+</html>
