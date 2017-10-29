@@ -1,5 +1,5 @@
 .default_img {
-  width: 20%;
+  width: 200px;
 }
 
 .company_logo {
@@ -27,7 +27,7 @@ ul {
 }
 
 li:before {
-    content: '\2b21';
+    content: url(../images/hex.png);
     margin: 0 1em;    /* any design */
 }
 
