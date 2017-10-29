@@ -1,0 +1,28 @@
+{
+  "name": "nb.com-minimal9",
+  "version": "1.0.1",
+  "description": "A minimal version of nb.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nbuechler/nb.com-minimal9.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Nathaniel Buechler",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nbuechler/nb.com-minimal9/issues"
+  },
+  "homepage": "https://github.com/nbuechler/nb.com-minimal9",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-resource": "^1.6.6",
+    "angular-ui-router": "^0.4.3",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
