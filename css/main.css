@@ -2,9 +2,16 @@
   width: 200px;
 }
 
+.logo_wrapper {
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  margin: 35px 30px;
+}
+
 .company_logo {
-  width: 150px;
-  padding: 20px;
+  max-width: 100px;
+  max-height: 70px;
 }
 
 .nice_quote {
@@ -34,6 +41,19 @@ li:before {
 .mainContent {
   margin-top: 50px;
   margin-bottom: 100px;
+}
+
+a.more_info_link:hover {
+  color: #c4bcd3;
+  text-decoration: none;
+}
+
+a.more_info_link {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin-left: 16px;
+  margin-bottom: 2px;
 }
 
 .footer {
